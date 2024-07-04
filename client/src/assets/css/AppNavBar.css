@@ -1,0 +1,76 @@
+/* Background and text color for navbar */
+.navbar-dark.bg-gray {
+  background-color: #333;
+  color: #fff; 
+}
+
+#basic-navbar-nav {
+  font-size: 20px;
+  outline-style: none;
+}
+
+/* Padding for the navbar */
+.pad {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styling for the nav links */
+.nav-link-gray {
+  color: gray !important;
+  margin-right: 1rem;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.nav-link-gray:hover {
+  color: #ddd !important;
+  text-decoration: none !important;
+}
+
+/* Customizing the collapse button */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-fluid {
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+/* Ensure the navbar logo and texts are properly aligned */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.navbar-text {
+  flex: 1;
+  text-align: center;
+}
+
+/* Remove bullet points */
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove the small white dot */
+.navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+/* AppNavBar.css */
+
+.nav-link-gray {
+  color: gray;
+}
+
+.nav-link-gray.active {
+  color: black; /* or any other color to indicate the active link */
+  font-weight: bold;
+}

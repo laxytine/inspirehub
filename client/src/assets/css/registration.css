@@ -1,0 +1,71 @@
+/* Ensure the container takes the full height of the viewport */
+.registration-container {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Center the form within the column */
+.registration-form-wrapper {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
+}
+
+.title {
+  font-size: 35px !important;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  text-align: center;
+  color: #333; /* Darker color for good contrast */
+  font-family: "Roboto", sans-serif !important;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333; /* Darker color for good contrast */
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* Form styling */
+.text {
+  color: #333; /* Darker color for good contrast */
+  margin: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.placeholder {
+  font-size: 20px;
+  color: #666; /* Medium dark color for placeholders */
+}
+
+.btn {
+  font-size: 15px;
+  background-color: #333; /* Darker color for button background */
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  color: #fff; /* Light color for button text */
+}
+
+/* Remove box styling for input controls */
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #333; /* Darker color for input border */
+  background-color: transparent;
+  color: #333; /* Darker color for input text */
+  caret-color: #333; /* Darker color for caret */
+}
+
+/* Remove outline on focus */
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}

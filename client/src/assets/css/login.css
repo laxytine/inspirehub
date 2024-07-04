@@ -1,0 +1,60 @@
+/* Ensure the container takes the full height of the viewport */
+.login-container {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Center the form within the column */
+.login-form-wrapper {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
+}
+
+.title {
+  font-size: 35px !important;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  text-align: center;
+  color: #333 !important; /* Darker color for good contrast */
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* Form styling */
+.text-white {
+  color: #333 !important; /* Darker color for good contrast */
+  font-size: 20px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+#submitBtn {
+  font-size: 15px;
+  background-color: #333; /* Darker color for button background */
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  color: #fff; /* Light color for button text */
+}
+
+/* Remove box styling for input controls */
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #333; /* Darker color for input border */
+  background-color: transparent;
+  color: #333; /* Darker color for input text */
+  caret-color: #333; /* Darker color for caret */
+  margin-bottom: 10px;
+}
+
+/* Remove outline on focus */
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}

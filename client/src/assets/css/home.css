@@ -1,0 +1,51 @@
+/* Ensure html and body take the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Background hero class */
+.bg-hero {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Override background color and border for headings and paragraphs */
+.h1,
+.p {
+  background-color: transparent !important; /* Remove background color */
+  border: none !important; /* Remove border */
+  color: slategray; /* Set text color */
+  text-align: center; /* Center align text */
+  text-transform: uppercase;
+  background-image: inherit; /* Inherit background image from parent */
+  background-size: inherit; /* Inherit background size */
+  background-repeat: inherit; /* Inherit background repeat */
+  background-position: inherit; /* Inherit background position */
+}
+
+/* Heading styling */
+.h1 {
+  font-size: 50px !important;
+  font-weight: 400 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* Paragraph styling */
+.p {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
